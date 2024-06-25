@@ -192,6 +192,10 @@ body {
 .definitions__syn {
     margin-bottom: 2rem;
     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .syn__title {
@@ -205,6 +209,7 @@ body {
     display: inline-block;
     color: #2761da;
     font-weight: bold;
+    padding: 1rem;
 }
 
 .layout__footer {
@@ -212,6 +217,10 @@ body {
     width: 100%;
     border-top: 1px solid #ececec;
     padding: 1.5rem;
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
 
 
 }
