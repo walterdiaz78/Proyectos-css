@@ -1,0 +1,51 @@
+body {
+  background-image: url(filo.jpg);
+  
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;    
+}
+
+#titulo {
+    display: block;
+    background-color: #303030;
+    font-size: 34px;
+    padding: 17px;
+    color: white;
+    text-align: center;
+
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    opacity: 0.8;
+    
+}
+.articulo {
+    background-color: white;
+    width: 70%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 0px;
+    text-align: center;
+    
+    margin: 0 auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    opacity: 0.8;
+
+}
+.subtitulo {
+    color: #2e2c2c;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+footer {
+    
+    text-align: center;
+    color: #d8c8c8;
+    font-size: 14px;
+}
