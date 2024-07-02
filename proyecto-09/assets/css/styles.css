@@ -1,0 +1,21 @@
+@font-face {
+    font-family: OpenSans_oElQueQuiera ;
+    src: url(../fonts/opensans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Roboto";
+}
+
+h3 {
+    font-size: 30px;
+    font-family: "OpenSans_oElQueQuiera";
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
