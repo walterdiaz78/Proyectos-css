@@ -1,3 +1,94 @@
+
+
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    height: 100%;
+    background-color: #1553d8c3 ;
+ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.layout {
+    width: 80%;
+    height: 80%;
+    background-color: #e8effa;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow:  12px 12px 20px rgba(0, 0, 0, 0.5);
+    
+    
+}
+.layout__main {
+}
+
+.main__title {
+    font-size: 4rem;
+}
+
+.title__text {
+    font-size: 6rem;
+    height: 7rem;
+    line-height: 7rem;
+    overflow:hidden;
+}
+
+.title__rotate {
+    position: relative;
+    display: block;
+    animation: rotate 10s ease infinite;
+}
+
+@keyframes rotate {
+    20% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-7rem);
+    }
+    45% {
+        transform: translateY(-7rem);
+    }
+    50% {
+        transform: translateY(-14rem);
+
+    }
+    70% {
+        transform: translateY(-14rem);
+
+    }
+    75% {
+        transform: translateY(-14rem);
+    }
+    75% {
+        transform: translateY(-21rem);
+    }
+
+    95% {
+        transform: translateY(-21rem);
+    }
+    100% {
+        transform: translateY(0rem);
+    }
+}
+/* 
+ORIGINAL DE CURSO:
+
 html {
     font-size: 10px;
 }
@@ -71,3 +162,5 @@ body {
         transform: translateY(0rem);
     }
 }
+
+*/
