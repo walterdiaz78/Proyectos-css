@@ -53,6 +53,8 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
+    margin: 20px;
+    
 }
 
 .article {
@@ -62,7 +64,24 @@ body {
     background-color: yellow;
     
     line-height: 300px;
+    border-radius: 0 50px 0 50px;
     
+        
+}
+.article:first-child {
+    line-height: 100px;
+}
+
+.shadow-int {
+    /* inset dibuja la sombra por dentro */
+    box-shadow: 0 0 15px grey inset;
+
+
+}
+
+.shadow-ext {
+    box-shadow: 0 0 15px grey;
+
 }
 
 .lateral {
@@ -82,6 +101,10 @@ footer {
     
     /* XXXXXXXXXXXXXXXXXXXXX */
     padding: 40px;
+}
+
+p>articles {
+    color: black;
 }
 
 
