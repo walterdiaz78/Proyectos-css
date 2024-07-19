@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+.layout {
+    width: 1400px;
+    /* si pongo width: 100%; ya es responsive*/
+    max-width: 1600px;
+    height: 100%;
+    margin: 15px auto;
+    
+    text-align: center;
+
+    display: grid;
+    grid-template-areas: "header header"
+                        "main lateral"
+                        "footer footer";
+
+    grid-template-columns: 65% 35%;
+    /* o bien grid-template-columns: 65% auto; */
+
+}
+
+.header {
+    grid-area: header;
+    background-color: brown;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.main {
+    grid-area: "main";
+    
+    
+    
+}
+.subtitle {
+    text-align: center;
+    font-size: 16px;
+    background-color: orange;
+    padding: 15px;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.article {
+    flex-basis: calc(50% - 10px);
+    
+    height: 300px;
+    background-color: yellow;
+    
+    line-height: 300px;
+    
+}
+
+.lateral {
+    grid-area: lateral;
+    background-color: aqua;
+    
+    height: 1100px;
+    
+    padding-top: 20px;
+    font-size: 18px;
+}
+footer {
+    grid-area: footer;
+    background-color: grey;
+    color: white;
+    /* Para limpiar el flotado */
+    
+    /* XXXXXXXXXXXXXXXXXXXXX */
+    padding: 40px;
+}
+
+
